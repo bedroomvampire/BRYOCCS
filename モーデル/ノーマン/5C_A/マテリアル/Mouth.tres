@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dstbgutecdot7"]
+
+[ext_resource type="Texture2D" uid="uid://be3b0x67seevj" path="res://モーデル/ノーマン/5C_A/norman5c_a_norman2_Untitled.png" id="1_pfxep"]
+
+[resource]
+resource_name = "Mouth"
+albedo_texture = ExtResource("1_pfxep")
+roughness = 0.5

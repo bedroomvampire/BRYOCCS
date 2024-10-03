@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://i1oa48u3cbr7"]
+
+[resource]
+resource_name = "Shirt Sleeve"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.537099, 0.537099, 0.537099, 1)

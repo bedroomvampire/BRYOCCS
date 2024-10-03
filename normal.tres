@@ -1,0 +1,11 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=3 uid="uid://c2t6ppb8vec5"]
+
+[ext_resource type="Texture2D" uid="uid://btar74db7hbbn" path="res://画像/gradient/gradient.png" id="1_rfkna"]
+
+[resource]
+texture = ExtResource("1_rfkna")
+texture_margin_left = 4.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+texture_margin_bottom = 4.0
+modulate_color = Color(0.15, 0.15, 0.15, 0.870588)

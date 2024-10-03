@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://rlfgmnryp0t0"]
+
+[ext_resource type="Texture2D" uid="uid://1nfpvqxr2s35" path="res://モーデル/ノーマン/norman2_norman2_Untitled.png" id="1_bige2"]
+
+[resource]
+resource_name = "Face"
+albedo_texture = ExtResource("1_bige2")
+roughness = 0.5

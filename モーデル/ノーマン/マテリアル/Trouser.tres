@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://jdaw55jsuhye"]
+
+[resource]
+resource_name = "Trouser"
+albedo_color = Color(0.388573, 0.388573, 0.388573, 1)

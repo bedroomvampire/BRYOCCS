@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cm85j8p3wawq4"]
+
+[resource]
+resource_name = "Jacket Sleeve"
+albedo_color = Color(0.735357, 0.735357, 0.735357, 1)

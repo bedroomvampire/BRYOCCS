@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cvdh4b1j6d8ai"]
+
+[resource]
+resource_name = "Base Shirt"
+albedo_color = Color(0.735357, 0.735357, 0.735357, 1)
+roughness = 0.5

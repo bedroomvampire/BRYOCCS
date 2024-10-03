@@ -1,0 +1,12 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://ctec0u3o71xu6"]
+
+[ext_resource type="FontFile" uid="uid://dmvhlr2lgbiev" path="res://フォント/Noto_Sans_JP/static/NotoSansJP-Regular.ttf" id="1_vcqfd"]
+
+[resource]
+base_font = ExtResource("1_vcqfd")
+variation_opentype = {
+2003265652: 100
+}
+opentype_features = {
+1920295545: 1
+}

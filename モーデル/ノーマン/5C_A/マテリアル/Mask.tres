@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://5apwcsqckavf"]
+
+[resource]
+resource_name = "Mask"
+albedo_color = Color(0.388573, 0.388573, 0.388573, 1)

@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://egiy6eul3rp5"]
+
+[resource]
+resource_name = "Hair"
+albedo_color = Color(0.0998528, 0.0998528, 0.0998528, 1)

@@ -1,0 +1,76 @@
+[gd_resource type="Theme" load_steps=16 format=3 uid="uid://b4lxjsocjue1y"]
+
+[ext_resource type="Texture2D" uid="uid://btar74db7hbbn" path="res://画像/gradient/gradient.png" id="1_hb8m7"]
+[ext_resource type="FontFile" uid="uid://4luir0hrn8r1" path="res://フォント/Noto_Sans_JP/static/NotoSansJP-Bold.ttf" id="1_nlh51"]
+[ext_resource type="Texture2D" uid="uid://vqe5h22i74wn" path="res://画像/gradient/gradient_light.png" id="1_roy66"]
+[ext_resource type="Texture2D" uid="uid://cyfi870nuth0o" path="res://画像/gradient/gradient_invert.png" id="2_a2phm"]
+[ext_resource type="StyleBox" uid="uid://btp1p531cy73j" path="res://highlight.tres" id="2_ox0cj"]
+[ext_resource type="FontFile" uid="uid://dmvhlr2lgbiev" path="res://フォント/Noto_Sans_JP/static/NotoSansJP-Regular.ttf" id="2_x7u52"]
+[ext_resource type="StyleBox" uid="uid://c2t6ppb8vec5" path="res://normal.tres" id="4_dhxsj"]
+[ext_resource type="StyleBox" uid="uid://clreeenggqnno" path="res://pressed.tres" id="5_xojd7"]
+[ext_resource type="Texture2D" uid="uid://dkxqxxp35i2le" path="res://画像/gradient/gradient_light_inverted.png" id="6_yg13s"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_74qcs"]
+texture = ExtResource("1_roy66")
+texture_margin_left = 4.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+texture_margin_bottom = 4.0
+modulate_color = Color(0.17, 0.17, 0.17, 0.870588)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_eotyq"]
+texture = ExtResource("1_hb8m7")
+texture_margin_left = 4.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+texture_margin_bottom = 4.0
+modulate_color = Color(0.75, 0.75, 0.75, 0.870588)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0tdhy"]
+texture = ExtResource("1_hb8m7")
+texture_margin_left = 4.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+texture_margin_bottom = 4.0
+modulate_color = Color(1, 1, 1, 0.870588)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_sgeuj"]
+texture = ExtResource("2_a2phm")
+texture_margin_left = 4.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+texture_margin_bottom = 4.0
+modulate_color = Color(0.07, 0.07, 0.07, 0.498039)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wo2gi"]
+texture = ExtResource("6_yg13s")
+texture_margin_left = 4.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+texture_margin_bottom = 4.0
+modulate_color = Color(0.11, 0.11, 0.11, 0.498039)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_exjci"]
+texture = ExtResource("1_hb8m7")
+texture_margin_left = 4.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+texture_margin_bottom = 4.0
+modulate_color = Color(0.64, 0.64, 0.64, 1)
+
+[resource]
+default_font = ExtResource("2_x7u52")
+Button/fonts/font = ExtResource("1_nlh51")
+Button/styles/focus = ExtResource("2_ox0cj")
+Button/styles/hover = SubResource("StyleBoxTexture_74qcs")
+Button/styles/normal = ExtResource("4_dhxsj")
+Button/styles/pressed = ExtResource("5_xojd7")
+HSlider/styles/grabber_area = SubResource("StyleBoxTexture_eotyq")
+HSlider/styles/grabber_area_highlight = SubResource("StyleBoxTexture_0tdhy")
+HSlider/styles/slider = ExtResource("5_xojd7")
+LineEdit/styles/focus = ExtResource("2_ox0cj")
+LineEdit/styles/normal = SubResource("StyleBoxTexture_sgeuj")
+LineEdit/styles/read_only = SubResource("StyleBoxTexture_wo2gi")
+ProgressBar/fonts/font = ExtResource("1_nlh51")
+ProgressBar/styles/background = ExtResource("5_xojd7")
+ProgressBar/styles/fill = SubResource("StyleBoxTexture_exjci")

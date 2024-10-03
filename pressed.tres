@@ -1,0 +1,11 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=3 uid="uid://clreeenggqnno"]
+
+[ext_resource type="Texture2D" uid="uid://cyfi870nuth0o" path="res://画像/gradient/gradient_invert.png" id="1_ief5w"]
+
+[resource]
+texture = ExtResource("1_ief5w")
+texture_margin_left = 4.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+texture_margin_bottom = 4.0
+modulate_color = Color(0.11, 0.11, 0.11, 0.870588)

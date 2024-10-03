@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dily2208dw073"]
+
+[resource]
+resource_name = "Shirt"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.277304, 0.277304, 0.277304, 1)
